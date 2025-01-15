@@ -18,4 +18,5 @@ URLINPUT.form.addEventListener("submit", loadPage);
 
 function loadPage(e){
 	e.preventDefault();
+	url = URLINPUT.value;
 };
